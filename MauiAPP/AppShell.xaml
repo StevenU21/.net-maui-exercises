@@ -8,23 +8,23 @@
     Shell.FlyoutBehavior="Flyout"
     Title="MauiAPP">
 
-    <FlyoutItem Title="Registro" Icon="icon_registro.png">
+    <FlyoutItem Title="Registro">
         <ShellContent ContentTemplate="{DataTemplate pages:RegistroPage}" />
     </FlyoutItem>
 
-    <FlyoutItem Title="Verificador Par/Impar" Icon="icon_parimpar.png">
+    <FlyoutItem Title="Verificador Par/Impar">
         <ShellContent ContentTemplate="{DataTemplate pages:ParImparPage}" />
     </FlyoutItem>
 
-    <FlyoutItem Title="Cálculo de Edad" Icon="icon_edad.png">
+    <FlyoutItem Title="Cálculo de Edad">
         <ShellContent ContentTemplate="{DataTemplate pages:CalculoEdadPage}" />
     </FlyoutItem>
 
-    <FlyoutItem Title="Calculadora Básica" Icon="icon_calculadora.png">
+    <FlyoutItem Title="Calculadora Básica" >
         <ShellContent ContentTemplate="{DataTemplate pages:CalculadoraPage}" />
     </FlyoutItem>
 
-    <FlyoutItem Title="Conversor Temperatura" Icon="icon_temperatura.png">
+    <FlyoutItem Title="Conversor Temperatura">
         <ShellContent ContentTemplate="{DataTemplate pages:ConversorTemperaturaPage}" />
     </FlyoutItem>
 
