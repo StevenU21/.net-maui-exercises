@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAPP.Pages.CalculadoraPage"
+             Title="CalculadoraPage">
+    <StackLayout Padding="20">
+        <Label Text="Calculadora Básica" FontSize="Large" HorizontalOptions="Center"/>
+        <Entry x:Name="entryNumero1" Placeholder="Número 1" Keyboard="Numeric"/>
+        <Entry x:Name="entryNumero2" Placeholder="Número 2" Keyboard="Numeric"/>
+        <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Spacing="10">
+            <Button Text="+" Clicked="OnOperacionClicked"/>
+            <Button Text="-" Clicked="OnOperacionClicked"/>
+            <Button Text="×" Clicked="OnOperacionClicked"/>
+            <Button Text="÷" Clicked="OnOperacionClicked"/>
+        </StackLayout>
+        <Label x:Name="labelResultadoCalc" TextColor="DarkOrange" FontAttributes="Bold" Margin="10"/>
+    </StackLayout>
+</ContentPage>

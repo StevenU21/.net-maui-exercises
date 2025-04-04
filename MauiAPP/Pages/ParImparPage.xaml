@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAPP.Pages.ParImparPage"
+             Title="ParImparPage">
+    <StackLayout Padding="20">
+        <Label Text="Verificador de Número Par o Impar" FontSize="Large" HorizontalOptions="Center"/>
+        <Entry x:Name="entryNumero" Placeholder="Ingresa un número" Keyboard="Numeric"/>
+        <Button Text="Verificar" Clicked="OnVerificarClicked"/>
+        <Label x:Name="labelResultado" TextColor="Blue" FontAttributes="Bold" Margin="10"/>
+    </StackLayout>
+</ContentPage>
