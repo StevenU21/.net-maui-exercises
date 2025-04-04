@@ -8,27 +8,22 @@
     Shell.FlyoutBehavior="Flyout"
     Title="MauiAPP">
 
-    <!-- Elemento para la vista de Registro -->
     <FlyoutItem Title="Registro" Icon="icon_registro.png">
         <ShellContent ContentTemplate="{DataTemplate pages:RegistroPage}" />
     </FlyoutItem>
 
-    <!-- Elemento para el verificador de par/impar -->
     <FlyoutItem Title="Verificador Par/Impar" Icon="icon_parimpar.png">
         <ShellContent ContentTemplate="{DataTemplate pages:ParImparPage}" />
     </FlyoutItem>
 
-    <!-- Elemento para el cálculo de edad -->
     <FlyoutItem Title="Cálculo de Edad" Icon="icon_edad.png">
         <ShellContent ContentTemplate="{DataTemplate pages:CalculoEdadPage}" />
     </FlyoutItem>
 
-    <!-- Elemento para la calculadora básica -->
     <FlyoutItem Title="Calculadora Básica" Icon="icon_calculadora.png">
         <ShellContent ContentTemplate="{DataTemplate pages:CalculadoraPage}" />
     </FlyoutItem>
 
-    <!-- Elemento para el conversor de temperatura -->
     <FlyoutItem Title="Conversor Temperatura" Icon="icon_temperatura.png">
         <ShellContent ContentTemplate="{DataTemplate pages:ConversorTemperaturaPage}" />
     </FlyoutItem>
